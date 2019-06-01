@@ -2168,8 +2168,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-banner {
-  margin-top: -48px;
+  margin-top: 0px;
 }
+
+.default-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+
 
 @media (max-width: 991px) {
   .default-banner {

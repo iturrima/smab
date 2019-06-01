@@ -1,27 +1,72 @@
-<ngb-carousel *ngIf="images">
-  <ng-template ngbSlide>
-    <img [src]="images[0]" alt="Random first slide">
-    <div class="carousel-caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+<div class="default-banner">
+  <div class="">
+    <div class="animated fadeIn slow">
+      <ngb-carousel *ngIf="images">
+        <div class="container animated fadeIn slow">
+          <div class="row fullscreen justify-content-center align-items-center">
+            <div class="col-md-10 col-12">
+              <ng-template ngbSlide>
+                <img [src]="images[0]" alt="Random first slide" class="animated fadeIn slow">
+                <div class="carousel-caption banner-content text-center">
+                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
+                  <h1 class="text-uppercase text-white">Un entorno distinto</h1>
+                  <p class="text-white">Sede de eventos</p>
+                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">servicios para mi evento</a>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div class="container animated fadeIn slow">
+          <div class="row fullscreen justify-content-center align-items-center">
+            <div class="col-md-10 col-12">
+              <ng-template ngbSlide>
+                <img [src]="images[1]" alt="Random second slide" class="animated fadeIn slow" style="background-size: cover">
+                <div class="carousel-caption banner-content text-center">
+                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
+                  <h1 class="text-uppercase text-white">Una experiencia única</h1>
+                  <p class="text-white">Sede de eventos</p>
+                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div class="container animated fadeIn slow">
+          <div class="row fullscreen justify-content-center align-items-center">
+            <div class="col-md-10 col-12">
+              <ng-template ngbSlide>
+                <img [src]="images[2]" alt="Random third slide" class="animated fadeIn slow">
+                <div class="carousel-caption banner-content text-center">
+                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
+                  <h1 class="text-uppercase text-white">una ciudad servicial</h1>
+                  <p class="text-white">Sede de eventos</p>
+                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div class="container animated fadeIn slow">
+          <div class="row fullscreen justify-content-center align-items-center">
+            <div class="col-md-10 col-12">
+              <ng-template ngbSlide>
+                <img [src]="images[3]" alt="Random third slide" class="animated fadeIn slow">
+                <div class="carousel-caption banner-content text-center">
+                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
+                  <h1 class="text-uppercase text-white">su evento, singular</h1>
+                  <p class="text-white">Sede de eventos</p>
+                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>          
+      </ngb-carousel>  
     </div>
-  </ng-template>
-  <ng-template ngbSlide>
-    <img [src]="images[1]" alt="Random second slide">
-    <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </ng-template>
-  <ng-template ngbSlide>
-    <img [src]="images[2]" alt="Random third slide">
-    <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </div>
-  </ng-template>
-</ngb-carousel>
-
+  </div>
+</div>
+    
   <!-- <div id="carouselExampleFade" class="default-banner carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item animated fadeIn active" data-interval="3000" style="background: url(./assets/img/slider1.png);background-size: cover;">

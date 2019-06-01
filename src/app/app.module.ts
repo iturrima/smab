@@ -39,6 +39,7 @@ import { BlognewComponent } from './components/blognew/blognew.component';
 import { BlognewTarjetaComponent } from './components/blognew-tarjeta/blognew-tarjeta.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { SliderComponent } from './components/slider/slider.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
 
@@ -58,7 +59,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     BlognewComponent,
     BlognewTarjetaComponent,
     BuscadorComponent,
-    CarouselComponent
+    CarouselComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
