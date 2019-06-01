@@ -1,0 +1,12 @@
+
+  <div class="card animated fadeIn fast">
+  <img [src]="blognew.img" class="card-img-top" [alt]="blognew.tituloCalculo">
+    <div class="card-body">
+      <h5 class="card-title">{{ blognew.tituloCalculo }}</h5>
+      <p class="card-text">{{ blognew.detalleCalculo }}</p>
+      <button (click)="verBlognew()" type="button" class="btn btn-warning">
+        Calculate
+      </button>
+      <!-- <a [routerLink]="['/application', i]" class="btn btn-warning">Calculate</a> -->
+    </div>
+  </div>
