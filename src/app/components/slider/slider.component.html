@@ -13,63 +13,73 @@
       <div class="active-works-carousel mt-40 col-lg-8">
         <ngb-carousel *ngIf="images">
           <div class="item">
-            <ng-template ngbSlide>
-              <img class="img-fluid" [src]="images[0]" alt="" style="max-height:300px">
-              <div class="carousel-caption caption text-center mt-20">
-                <h6 class="text-uppercase">Entorno</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>  
+            <ng-template ngbSlide>            
+              <div class="card mb-3 animated fadeIn fast">
+                <img [src]="images[0]" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Entorno</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat</p>
+                  <p class="card-text"><small class="text-muted">San Martín de los Andes - Patagonia Argentina</small></p>
+                </div>
+              </div>
             </ng-template>
           </div> 
           <div class="item">
             <ng-template ngbSlide>
-              <img class="img-fluid" [src]="images[1]" alt="" style="max-height:300px">
-              <div class="carousel-caption caption text-center mt-20">
-                <h6 class="text-uppercase">Ahumados Patagónicos</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>     
+              <div class="card mb-3 animated fadeIn fast">
+                <img [src]="images[1]" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ahumados Patagónicos</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat</p>
+                  <p class="card-text"><small class="text-muted">San Martín de los Andes - Patagonia Argentina</small></p>
+                </div>
+              </div>
             </ng-template>
           </div> 
           <div class="item">
             <ng-template ngbSlide>
-              <img class="img-fluid" [src]="images[2]" alt="" style="max-height:300px">
-              <div class="carousel-caption caption text-center mt-20">
-                <h6 class="text-uppercase">Actividades de Invierno</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>     
+              <div class="card mb-3 animated fadeIn fast">
+                <img [src]="images[2]" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Actividades de Invierno</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat</p>
+                  <p class="card-text"><small class="text-muted">San Martín de los Andes - Patagonia Argentina</small></p>
+                </div>
+              </div>
             </ng-template>
           </div> 
           <div class="item">
             <ng-template ngbSlide>
-              <img class="img-fluid" [src]="images[3]" alt="" style="max-height:300px">
-              <div class="carousel-caption caption text-center mt-20">
-                <h6 class="text-uppercase">Actividades de Verano</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>     
+              <div class="card mb-3 animated fadeIn fast">
+                <img [src]="images[3]" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Actividades de Verano</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat</p>
+                  <p class="card-text"><small class="text-muted">San Martín de los Andes - Patagonia Argentina</small></p>
+                </div>
+              </div>   
             </ng-template>
           </div> 
           <div class="item">
             <ng-template ngbSlide>
-              <img class="img-fluid" [src]="images[0]" alt="" style="max-height:300px">
-              <div class="carousel-caption caption text-center mt-20">
-                <h6 class="text-uppercase">Una ciudad distinta</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>     
+              <div class="card mb-3 animated fadeIn fast">
+                <img [src]="images[4]" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Una ciudad distinta</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat</p>
+                  <p class="card-text"><small class="text-muted">San Martín de los Andes - Patagonia Argentina</small></p>
+                </div>
+              </div> 
             </ng-template>
           </div>                               
         </ngb-carousel>

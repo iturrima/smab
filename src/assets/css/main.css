@@ -90,6 +90,7 @@ a, a:focus, a:hover {
   
 }
 
+
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -165,6 +166,8 @@ h6, .h6 {
 td, th {
   border-radius: 0px;
 }
+
+
 
 /**
  * For modern browsers
@@ -762,7 +765,7 @@ td, th {
   background: #f9fafc;
 }
 
-
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
@@ -1950,6 +1953,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
+.navbar-nav a:hover {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px;
+}
+
 @media (max-width: 992px) {
   .navbar-nav {
     margin-top: 10px;
@@ -2156,6 +2166,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .dropdown-item {
     text-align: left;
@@ -2163,6 +2174,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Tablet Layout: 768px */
 @media (min-width: 768px) {
   .dropdown .dropdown-menu {
     display: block;
@@ -2190,6 +2202,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 15px;
 }
 
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .dropdown-menu {
     margin-top: 0px;
@@ -2211,9 +2224,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-top: 70px
+  padding-top: 0px
 }
-
 
 
 @media (max-width: 991px) {
@@ -2248,14 +2260,31 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Medium Layout: 1280px */
 @media (max-width: 1199px) {
   .default-banner h1 {
     font-size: 45px;
   }
 }
+.default-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 80px
+}
+.default-banner .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 130px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
 
-
-
+/* Wide Mobile Layout: 480px */
 @media (max-width: 414px) {
   .default-banner h1 {
     font-size: 40px;
@@ -2435,6 +2464,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 50px;
 }
 
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .active-works-carousel .owl-dots .owl-dot {
     margin: 0 15px;
@@ -2447,7 +2477,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-feature {
-  background-color: #f9f9ff;
+  background-color: #fff7f2;
   padding: 30px 30px 15px 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2456,7 +2486,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-feature a {
-  color: #222;
+  color: #ca560e;
 }
 
 .single-feature:hover {
@@ -2526,6 +2556,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 26px;
 }
 
+
 @media (max-width: 768px) {
   .counter-left {
     text-align: center;
@@ -2537,6 +2568,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 10%;
 }
 
+/* Medium Layout: 1280px */
 @media (max-width: 1199px) {
   .faq-content {
     padding-left: 2%;
@@ -2544,6 +2576,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .faq-content {
     text-align: center;
@@ -2796,6 +2829,7 @@ h6 {
   height: 600px;
 }
 
+/* Tablet Layout: 768px */
 @media (max-width: 767px) {
   .generic-banner .height {
     height: 400px;
