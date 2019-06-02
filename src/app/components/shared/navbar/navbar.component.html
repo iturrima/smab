@@ -9,19 +9,20 @@
             <img src="./assets/img/logo.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-white lnr lnr-menu"></span>
+            <app-modal></app-modal>
+            <!-- <app-dropdown></app-dropdown> -->
           </button>
 
+          <!-- <app-modal></app-modal> -->
+
+            
           <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent" >
             <ul class="nav navbar-nav" >
-            <!-- <li>
-              <a href="index.html">Inicio</a>
-            </li> -->
             <li>
               <a [routerLink]="['home']">Inicio</a>
             </li>
             <li routerLinkActive>
-              <a [routerLink]="['about']">Nosotros</a>
+              <a [routerLink]="['nosotros']">Nosotros</a>
             </li>
             <li routerLinkActive>
               <a [routerLink]="['sma']">San Martín de los Andes</a>
@@ -31,7 +32,7 @@
               <!-- <a href="index.html#/socios">Socios</a> -->
             </li>
             <li routerLinkActive>
-              <a [routerLink]="['contact']">Contacto</a>
+              <a [routerLink]="['contacto']">Contacto</a>
             </li>
             <!-- Dropdown -->
               <!-- <li class="dropdown">

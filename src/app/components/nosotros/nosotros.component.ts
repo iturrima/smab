@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
+  selector: 'app-nosotros',
+  templateUrl: './nosotros.component.html',
   styles: [
           ]
 })
-export class AboutComponent {
+export class NosotrosComponent {
   loadScripts() {
      const dynamicScripts = [
       '../../../assets/js/main.js'

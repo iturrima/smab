@@ -30,8 +30,8 @@ import { SmaComponent } from './components/sma/sma.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 import { SociosComponent } from './components/socios/socios.component';
 import { SocioTarjetaComponent } from './components/socio-tarjeta/socio-tarjeta.component';
 import { BlogComponent } from './components/blog/blog.component';
@@ -40,6 +40,10 @@ import { BlognewTarjetaComponent } from './components/blognew-tarjeta/blognew-ta
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { CaracteristicasComponent } from './components/caracteristicas/caracteristicas.component';
+import { DropdownComponent } from './components/dropdown/dropdown.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { BotonComponent } from './components/boton/boton.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
 
@@ -51,16 +55,20 @@ import { SliderComponent } from './components/slider/slider.component';
     FooterComponent,
     NavbarComponent,
     HomeComponent,
-    AboutComponent,
+    NosotrosComponent,
     SociosComponent,
     SocioTarjetaComponent,
-    ContactComponent,
+    ContactoComponent,
     BlogComponent,
     BlognewComponent,
     BlognewTarjetaComponent,
     BuscadorComponent,
     CarouselComponent,
-    SliderComponent
+    SliderComponent,
+    CaracteristicasComponent,
+    DropdownComponent,
+    ModalComponent,
+    BotonComponent
   ],
   imports: [
     BrowserModule,
