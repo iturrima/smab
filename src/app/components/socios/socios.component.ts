@@ -7,6 +7,7 @@ import { SociosService, Socio } from '../../services/socios.service';
 @Component({
   selector: 'app-socios',
   templateUrl: './socios.component.html'
+  // ,
   // styleUrls: ['./estilos-filtro.css']
 })
 export class SociosComponent {

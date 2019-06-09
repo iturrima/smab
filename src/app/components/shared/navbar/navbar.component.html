@@ -5,47 +5,32 @@
   <header class="default-header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="./assets/img/logo.png" alt="">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <app-modal></app-modal>
-            <!-- <app-dropdown></app-dropdown> -->
-          </button>
-
-          <!-- <app-modal></app-modal> -->
-
-            
-          <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent" >
-            <ul class="nav navbar-nav" >
-            <li>
-              <a [routerLink]="['home']">Inicio</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="./assets/img/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler hidden-sm-up"  type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse justify-content-end align-items-center" id="navbarsDefault">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" routerLinkActive>
+              <a [routerLink]="['home']" (click)="isNavbarCollapsed = !isNavbarCollapsed">Inicio</a>
             </li>
-            <li routerLinkActive>
-              <a [routerLink]="['nosotros']">Nosotros</a>
+            <li class="nav-item" routerLinkActive>
+              <a [routerLink]="['nosotros']" (click)="isNavbarCollapsed = !isNavbarCollapsed">Nosotros</a>
             </li>
-            <li routerLinkActive>
-              <a [routerLink]="['sma']">San Martín de los Andes</a>
+            <li class="nav-item" routerLinkActive>
+              <a [routerLink]="['sma']" (click)="isNavbarCollapsed = !isNavbarCollapsed">San Martín de los Andes</a>
             </li>
-            <li routerLinkActive>
-              <a [routerLink]="['socios']">Socios</a>
-              <!-- <a href="index.html#/socios">Socios</a> -->
+            <li class="nav-item" routerLinkActive>
+              <a [routerLink]="['socios']" (click)="isNavbarCollapsed = !isNavbarCollapsed">Socios</a>
             </li>
-            <li routerLinkActive>
-              <a [routerLink]="['contacto']">Contacto</a>
+            <li class="nav-item" routerLinkActive>
+              <a [routerLink]="['contacto']" (click)="isNavbarCollapsed = !isNavbarCollapsed">Contacto</a>
             </li>
-            <!-- Dropdown -->
-              <!-- <li class="dropdown">
-                <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  Pages
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="generic.html">Generic</a>
-                  <a class="dropdown-item" href="elements.html">Elements</a>
-                </div>
-              </li> -->
-            </ul>
-          </div>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
+</section>

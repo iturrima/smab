@@ -14,11 +14,7 @@ import {BlogService } from './services/blog.service';
 import {SociosService } from './services/socios.service';
 import {SeccionesService } from './services/secciones.service';
 
-// @NgModule({
-//   imports: [],
-//   declarations: [SocioTarjetaComponent,BlognewTarjetaComponent, BuscadorComponent, TemplateComponent, SeccionComponent, HomeComponent],
-//   providers: []
-// })
+
 export class modulename { }
 
 
@@ -44,6 +40,7 @@ import { CaracteristicasComponent } from './components/caracteristicas/caracteri
 import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { BotonComponent } from './components/boton/boton.component';
+import { BgvideoComponent } from './components/bgvideo/bgvideo.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
 
@@ -68,7 +65,8 @@ import { BotonComponent } from './components/boton/boton.component';
     CaracteristicasComponent,
     DropdownComponent,
     ModalComponent,
-    BotonComponent
+    BotonComponent,
+    BgvideoComponent
   ],
   imports: [
     BrowserModule,

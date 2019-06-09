@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+// import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
 
 @Component({
   selector: 'app-sma',

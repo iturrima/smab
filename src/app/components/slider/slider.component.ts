@@ -13,12 +13,12 @@ export class SliderComponent implements OnInit {
     // customize default values of carousels used by this component tree
     config.interval = 4000;
     config.wrap = true;
-    config.keyboard = false;
-    config.pauseOnHover = false;
+    config.keyboard = true;
+    config.pauseOnHover = true;
     
     
     // customize default values of carousels used by this component tree
-    config.showNavigationArrows = false;
+    config.showNavigationArrows = true;
     config.showNavigationIndicators = false;
 
 
