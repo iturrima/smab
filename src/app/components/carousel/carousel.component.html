@@ -8,10 +8,10 @@
               <ng-template ngbSlide>
                 <img [src]="images[0]" alt="Random first slide" class="animated fadeIn slow">
                 <div class="carousel-caption banner-content text-center">
-                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                  <h1 class="text-uppercase text-white">Un entorno distinto</h1>
-                  <p class="text-white">Sede de eventos</p>
-                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">servicios para mi evento</a>
+                  <h4 class="text-white mb-20 text-uppercase">{{ 'carousel.copetes.copete-1' | translate }}</h4>
+                  <h1 class="text-uppercase text-white">{{ 'carousel.titulos.titulo-1' | translate }}</h1>
+                  <p class="text-white">{{ 'carousel.bajadas.bajada-1' | translate }}</p>
+                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">{{ 'carousel.botones.boton-1' | translate }}</a>
                 </div>
               </ng-template>
             </div>
@@ -23,10 +23,10 @@
               <ng-template ngbSlide>
                 <img [src]="images[1]" alt="Random second slide" class="animated fadeIn slow" style="background-size: cover">
                 <div class="carousel-caption banner-content text-center">
-                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                  <h1 class="text-uppercase text-white">Una experiencia única</h1>
-                  <p class="text-white">Sede de eventos</p>
-                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                  <h4 class="text-white mb-20 text-uppercase">{{ 'carousel.copetes.copete-2' | translate }}</h4>
+                  <h1 class="text-uppercase text-white">{{ 'carousel.titulos.titulo-2' | translate }}</h1>
+                  <p class="text-white">{{ 'carousel.bajadas.bajada-2' | translate }}</p>
+                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">{{ 'carousel.botones.boton-2' | translate }}</a>
                 </div>
               </ng-template>
             </div>
@@ -38,10 +38,10 @@
               <ng-template ngbSlide>
                 <img [src]="images[2]" alt="Random third slide" class="animated fadeIn slow">
                 <div class="carousel-caption banner-content text-center">
-                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                  <h1 class="text-uppercase text-white">una ciudad servicial</h1>
-                  <p class="text-white">Sede de eventos</p>
-                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                  <h4 class="text-white mb-20 text-uppercase">{{ 'carousel.copetes.copete-3' | translate }}</h4>
+                  <h1 class="text-uppercase text-white">{{ 'carousel.titulos.titulo-3' | translate }}</h1>
+                  <p class="text-white">{{ 'carousel.bajadas.bajada-3' | translate }}</p>
+                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">{{ 'carousel.botones.boton-3' | translate }}</a>
                 </div>
               </ng-template>
             </div>
@@ -53,10 +53,10 @@
               <ng-template ngbSlide>
                 <img [src]="images[3]" alt="Random third slide" class="animated fadeIn slow">
                 <div class="carousel-caption banner-content text-center">
-                  <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                  <h1 class="text-uppercase text-white">su evento, singular</h1>
-                  <p class="text-white">Sede de eventos</p>
-                  <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
+                  <h4 class="text-white mb-20 text-uppercase">{{ 'carousel.copetes.copete-4' | translate }}</h4>
+                  <h1 class="text-uppercase text-white">{{ 'carousel.titulos.titulo-4' | translate }}</h1>
+                  <p class="text-white">{{ 'carousel.bajadas.bajada-4' | translate }}</p>
+                  <a [routerLink]="['../socios']"  class="text-uppercase header-btn">{{ 'carousel.botones.boton-4' | translate }}</a>
                 </div>
               </ng-template>
             </div>
@@ -66,64 +66,3 @@
     </div>
   </div>
 </div>
-    
-  <!-- <div id="carouselExampleFade" class="default-banner carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item animated fadeIn active" data-interval="3000" style="background: url(./assets/img/slider1.png);background-size: cover;">
-        <div class="container">
-          <div class="row fullscreen justify-content-center align-items-center">
-            <div class="col-md-10 col-12">
-              <div class="banner-content text-center">
-                <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                <h1 class="text-uppercase text-white">Un entorno distinto</h1>
-                <p class="text-white">Sede de eventos</p>
-                <a [routerLink]="['../socios']"  class="text-uppercase header-btn">servicios para mi evento</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item animated fadeIn" data-interval="3000" style="background: url(./assets/img/slider2.png);background-size: cover;">
-        <div class="container">
-          <div class="row fullscreen justify-content-center align-items-center">
-            <div class="col-md-10 col-12">
-              <div class="banner-content text-center">
-                <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                <h1 class="text-uppercase text-white">Una experiencia única</h1>
-                <p class="text-white">Sede de eventos</p>
-                <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item animated fadeIn " data-interval="3000" style="background: url(./assets/img/slider3.png);background-size: cover;">
-        <div class="container">
-          <div class="row fullscreen justify-content-center align-items-center">
-            <div class="col-md-10 col-12">
-              <div class="banner-content text-center">
-                <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                <h1 class="text-uppercase text-white">una ciudad servicial</h1>
-                <p class="text-white">Sede de eventos</p>
-                <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item animated fadeIn" data-interval="3000" style="background: url(./assets/img/slider4.png);background-size: cover;">
-        <div class="container">
-          <div class="row fullscreen justify-content-center align-items-center">
-            <div class="col-md-10 col-12">
-              <div class="banner-content text-center">
-                <h4 class="text-white mb-20 text-uppercase">San Martín de los Andes</h4>
-                <h1 class="text-uppercase text-white">su evento, singular</h1>
-                <p class="text-white">Sede de eventos</p>
-                <a [routerLink]="['../socios']" class="text-uppercase header-btn">servicios para mi evento</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->

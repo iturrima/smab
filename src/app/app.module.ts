@@ -2,8 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
+
+//Translation
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 
 //Routes
@@ -41,8 +45,13 @@ import { DropdownComponent } from './components/dropdown/dropdown.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { BotonComponent } from './components/boton/boton.component';
 import { BgvideoComponent } from './components/bgvideo/bgvideo.component';
+import { TranslationComponent } from './translation/translation.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
+
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -66,14 +75,25 @@ import { BgvideoComponent } from './components/bgvideo/bgvideo.component';
     DropdownComponent,
     ModalComponent,
     BotonComponent,
-    BgvideoComponent
+    BgvideoComponent,
+    TranslationComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     // ReactiveFormsModule,
     APP_ROUTING,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (http: HttpClient) => {
+          return new TranslateHttpLoader(http);
+        },
+        deps: [ HttpClient ]
+      }
+    })
+
 
   ],
   providers: [
