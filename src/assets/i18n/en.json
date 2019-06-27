@@ -1,0 +1,95 @@
+{
+  "navbar" : {
+    "menu-1": "Home",
+    "menu-2": "About",
+    "menu-3": "San Martín de los Andes",
+    "menu-4": "Partners",
+    "menu-5": "Contact"
+  },
+  "carousel" : {
+    "copetes":{
+      "copete-1": "San Martín de los Andes",
+      "copete-2": "San Martín de los Andes",
+      "copete-3": "San Martín de los Andes",
+      "copete-4": "San Martín de los Andes"
+    },
+    "titulos":{
+      "titulo-1": "a different environment",
+      "titulo-2": "a unique experience",
+      "titulo-3": "a helpful city",
+      "titulo-4": "your event, singular"
+    },
+    "bajadas":{
+      "bajada-1": "Event Venue",
+      "bajada-2": "Event Venue",
+      "bajada-3": "Event Venue",
+      "bajada-4": "Event Venue"
+    },
+    "botones":{
+      "boton-1": "services for my event",
+      "boton-2": "services for my event",
+      "boton-3": "services for my event",
+      "boton-4": "services for my event"
+    }
+  },
+  "secciones" : {
+    "home":{
+      "slider":{
+        "titulo": "San Martin de los Andes Bureau",
+        "texto1": "The merger between your event and San Martín de los Andes Bureau",
+        "texto2": "is the operational synergy necessary to ensure success."
+      },
+      "sliders":{
+        "slider-1": {
+          "titulo": "Environment",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        },
+        "slider-2": {
+          "titulo": "Smoked Patagonicos",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        },
+        "slider-3": {
+          "titulo": "A Different City",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        }
+      },
+      "caracteristicas":{
+        "titulo" : "The best option for his event",
+        "bajada" : "San Martín de los Andes - Event Venue",
+        "items" : {
+          "item-1" :{
+            "titulo" : "Gastronomy",
+            "detalle" : "“Exquisite gastronomy typical of Patagonia ”"
+          },
+          "item-2" :{
+            "titulo" : "Hospitality",
+            "detalle" : "“Hospitality three, four and five stars”"
+          },
+          "item-3" :{
+            "titulo" : "Salons",
+            "detalle" : "“Meeting rooms with capacity up to 250 people”"
+          },
+          "item-4" :{
+            "titulo" : "Activities",
+            "detalle" : "“Diversity of tourist offer”"
+          },
+          "item-5" :{
+            "titulo" : "Crafts",
+            "detalle" : "“Typical handicrafts from Patagonia”"
+          },
+          "item-6" :{
+            "titulo" : "Friendliness",
+            "detalle" : "“A city with good habits”"
+          }
+        }
+      },
+      "redes":{
+        "titulo" : "Community in the networks",
+        "texto" : "San Martín de los Andes Bureau"
+      }
+    }
+  }    
+}

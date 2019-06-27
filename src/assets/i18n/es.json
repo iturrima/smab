@@ -1,0 +1,95 @@
+{
+  "navbar" : {
+    "menu-1": "Inicio",
+    "menu-2": "Nosotros",
+    "menu-3": "San Martín de los Andes",
+    "menu-4": "Socios",
+    "menu-5": "Contacto"
+  },
+  "carousel" : {
+    "copetes":{
+      "copete-1": "San Martín de los Andes",
+      "copete-2": "San Martín de los Andes",
+      "copete-3": "San Martín de los Andes",
+      "copete-4": "San Martín de los Andes"
+    },
+    "titulos":{
+      "titulo-1": "un entorno distinto",
+      "titulo-2": "una experiencia única",
+      "titulo-3": "una ciudad servicial",
+      "titulo-4": "su evento, singular"
+    },
+    "bajadas":{
+      "bajada-1": "Sede de eventos",
+      "bajada-2": "Sede de eventos",
+      "bajada-3": "Sede de eventos",
+      "bajada-4": "Sede de eventos"
+    },
+    "botones":{
+      "boton-1": "servicios para mi evento",
+      "boton-2": "servicios para mi evento",
+      "boton-3": "servicios para mi evento",
+      "boton-4": "servicios para mi evento"
+    }
+  },
+  "secciones" : {
+    "home":{
+      "slider":{
+        "titulo": "Bureau San Martín de los Andes",
+        "texto1": "La fusión entre su evento y San Martín de los Andes Bureau",
+        "texto2": "es la sinergia operativa necesaria para asegurar el éxito."
+      },
+      "sliders":{
+        "slider-1": {
+          "titulo": "Entorno",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        },
+        "slider-2": {
+          "titulo": "Ahumados Patagónicos",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        },
+        "slider-3": {
+          "titulo": "Una Ciudad Distinta",
+          "texto": "Lorem ipsun  dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+          "bajada": "San Martín de los Andes - Patagonia Argentina"
+        }
+      },
+      "caracteristicas":{
+        "titulo" : "La mejor opción para su evento",
+        "bajada" : "San Martín de los Andes - Sede de Eventos",
+        "items" : {
+          "item-1" :{
+            "titulo" : "Gastronomía",
+            "detalle" : "“Exquisita gastronomía típica de la Patagonia”"
+          },
+          "item-2" :{
+            "titulo" : "Hotelería",
+            "detalle" : "“Hotelería tres, cuatro y cinco estrellas”"
+          },
+          "item-3" :{
+            "titulo" : "Salones",
+            "detalle" : "“Salones con capacidad hasta 250 personas”"
+          },
+          "item-4" :{
+            "titulo" : "Actividades",
+            "detalle" : "“Diversidad de oferta turística”"
+          },
+          "item-5" :{
+            "titulo" : "Artesanías",
+            "detalle" : "“Artesanías tipicas de la Patagonia”"
+          },
+          "item-6" :{
+            "titulo" : "Amabilidad",
+            "detalle" : "“Una ciudad con buenas costumbres”"
+          }
+        }
+      },
+      "redes":{
+        "titulo" : "Comunidad en las redes",
+        "texto" : "San Martín de los Andes Bureau"
+      }
+    }
+  }    
+}
