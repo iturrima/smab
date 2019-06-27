@@ -1919,6 +1919,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   z-index: 9;
+  box-shadow: 0px 4px 3px rgb(0,0,0,.5);
+  /* background-color: transparent;  */
+  background-color: rgba(35,69,82,0.7);
+  background-color: rgba(202,86,14,0.7);
+  background-color: rgba(180,55,18,0.7);
+  width: 100% !important;
+  border-bottom: 0.1px solid #fff;
   
 }
 
@@ -1952,6 +1959,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #fff;
   padding: 20px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+
 }
 
 .navbar-nav a:hover {
@@ -1973,11 +1982,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.section-gap {
-  padding: 0px 0;
+
+.section-carousel {
   margin-top: 0px;
 
 }
+.section-gap {
+  padding: 120px 0;
+  margin-top: 0px;
+
+}
+
 
 .section-socios {
   padding: 120px 0;
@@ -1986,7 +2001,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-sma {
   padding: 120px 0;
-
+  margin-top: 0px;
 }
 
 .section-contacto {
@@ -2122,25 +2137,21 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   bottom: 0;
 }
-
+/* 
 .default-header {
-  /* background-color: transparent; */
-  /* background-color: rgba(35,69,82,0.1); */
-  /* background-color: rgba(202,86,14,0.3); */
-  /* background-color: rgba(180,55,18,0.3); */
-  background-image: -moz-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
-  background-image: -webkit-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
-  background-image: -ms-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
-
   width: 100% !important;
   border-bottom: 0.1px solid #fff;
 
-}
+} */
 
 @media (max-width: 992px) {
   .default-header {
-    background-color: #222;
-    /* background-color: rgba(35,69,82,0.3); */
+    /* background-image: -moz-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
+    background-image: -webkit-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
+    background-image: -ms-linear-gradient(0deg, #ca560e 0%, #b43712 100%); */
+    background-color: rgba(35,69,82,0.7);
+    background-color: rgba(202,86,14,0.7);
+    background-color: rgba(180,55,18,0.7);
   }
 }
 
@@ -2158,6 +2169,11 @@ h1, h2, h3, h4, h5, h6 {
   background-image: -webkit-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
   background-image: -ms-linear-gradient(0deg, #ca560e 0%, #b43712 100%);
   border-bottom: 1px solid #fff;
+  /* background-color: transparent;
+  background-color: rgba(35,69,82,0.1);
+  background-color: rgba(202,86,14,0.3);
+  background-color: rgba(180,55,18,0.3); */
+
 
 }
 
@@ -2271,7 +2287,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-top: 80px
+  padding-top: 0px
 }
 .default-banner .carousel-caption {
   position: absolute;
