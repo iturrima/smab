@@ -49,10 +49,6 @@ import { TranslationComponent } from './translation/translation.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
 
-export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,7 +84,8 @@ export function createTranslateLoader(http: HttpClient) {
       loader: {
         provide: TranslateLoader,
         useFactory: (http: HttpClient) => {
-          return new TranslateHttpLoader(http);
+          return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+
         },
         deps: [ HttpClient ]
       }
