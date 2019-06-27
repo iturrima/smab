@@ -21,10 +21,13 @@ export class ContactoComponent {
     if (forma.value.name && forma.value.email && forma.value.message && forma.value.subject) {
       console.log('Enviar email');
 
-      this.mailService.sendmail(forma.value)
+      /* this.mailService.sendmail(forma.value)
         .subscribe( resp => {
           console.log(resp);
-      });
+      }); */
+
+      this.mailService.testGet(forma.value);
+      // this.mailService.testPost();
     }
   }
 
