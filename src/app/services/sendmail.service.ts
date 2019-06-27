@@ -7,8 +7,8 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 export class SendmailService {
 
   // private url = 'http://ec2-18-236-66-28.us-west-2.compute.amazonaws.com:8069/centrocultural/testmail/';
-  // private url = 'http://localhost:8070/centrocultural/sendmail/';
-  private url = 'http://localhost:8070/centrocultural/testmail/';
+  private url = 'http://localhost:8070/centrocultural/sendmail/';
+  // *private url = 'http://localhost:8070/centrocultural/testmail/';
   // private url = 'http://jsonplaceholder.typicode.com/posts';
 
   prueba: Object = {
@@ -32,7 +32,8 @@ export class SendmailService {
         .set('message', forma.message)
         .set('subject', forma.subject);
 
-    this.http.get('http://localhost:8070/centrocultural/test', {params})
+    // this.http.get('http://localhost:8070/centrocultural/test', {params})
+    this.http.get(this.url, {params})
         .subscribe(data => {
           console.log(data);
       });
