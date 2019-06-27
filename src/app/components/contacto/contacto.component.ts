@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { SendmailService } from '../../services/sendmail.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contacto',
@@ -14,20 +15,17 @@ import { SendmailService } from '../../services/sendmail.service';
 })
 export class ContactoComponent {
 
-  constructor(private mailService: SendmailService) {}
+  constructor(private mailService: SendmailService,
+              private router: Router) {}
 
   enviar(forma: NgForm) {
 
     if (forma.value.name && forma.value.email && forma.value.message && forma.value.subject) {
-      console.log('Enviar email');
-
-      /* this.mailService.sendmail(forma.value)
-        .subscribe( resp => {
-          console.log(resp);
-      }); */
-
-      this.mailService.testGet(forma.value);
-      // this.mailService.testPost();
+      this.mailService.sendMail(forma.value)
+          .subscribe( resp => {
+            console.log( resp );
+          });
+      this.router.navigate(['../home']);
     }
   }
 
