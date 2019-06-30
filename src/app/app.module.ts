@@ -46,6 +46,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { BotonComponent } from './components/boton/boton.component';
 import { BgvideoComponent } from './components/bgvideo/bgvideo.component';
 import { TranslationComponent } from './translation/translation.component';
+import { GraciasComponent } from './components/gracias/gracias.component';
 // import { Seccion } from './components/interfaces/seccion.interface';
 
 
@@ -72,7 +73,8 @@ import { TranslationComponent } from './translation/translation.component';
     ModalComponent,
     BotonComponent,
     BgvideoComponent,
-    TranslationComponent
+    TranslationComponent,
+    GraciasComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { BlognewComponent } from './components/blognew/blognew.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { SmaComponent } from './components/sma/sma.component';
 import { AsociarseComponent } from './components/asociarse/asociarse.component';
+import { GraciasComponent } from './components/gracias/gracias.component';
 
 
 
@@ -19,6 +20,7 @@ const APP_ROUTES: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'asociarse', component: AsociarseComponent },
+  { path: 'gracias', component: GraciasComponent },
   { path: 'blognew/:id', component: BlognewComponent },
   { path: 'buscar/:termino', component: BuscadorComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
