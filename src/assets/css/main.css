@@ -2900,6 +2900,11 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+/* Wide Mobile Layout: 480px */
+@media (max-width: 480px) {
+  
+}
+
 
 /* Wide Mobile Layout: 480px */
 @media (max-width: 680px) {
@@ -2913,8 +2918,10 @@ h6 {
     display: none;
   }
 
+  
   .default-banner .carousel-caption{
-    bottom: 0px;
+    /* bottom: 0px; */
+    padding-top: 20px;
   }
 
 }
