@@ -1,33 +1,33 @@
 <!-- start contact Area -->
-<section class="contact-area section-contacto animated fadeIn fast" id="contact" >
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="menu-content pb-60 col-lg-8">
-        <div class="title text-center">
-          <h1 class="mb-10">Su próximo evento <br>en San Martín de los Andes</h1>
-          <p>Descubra todas las posibilidades</p>
+<section class="contact-area section-contacto animated fadeIn fast" id="contact">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Su próximo evento <br>en San Martín de los Andes</h1>
+                    <p>Descubra todas las posibilidades</p>
+                </div>
+            </div>
         </div>
-      </div>
+        <form (ngSubmit)='enviar(forma)' #forma="ngForm" class="form-area " id="myForm" class="contact-form text-right">
+            <div class="row">
+                <div class="col-lg-6 form-group">
+                    <input required name="name" placeholder="Ingrese su nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su nombre'" class="common-input mb-20 form-control" ngModel type="text">
+
+                    <input name="email" placeholder="Ingrese su correo electrónico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su correo electrónico'" class="common-input mb-20 form-control"
+                        required ngModel type="email">
+
+                    <input name="subject" placeholder="Ingrese su asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su asunto'" class="common-input mb-20 form-control" required ngModel type="text">
+                </div>
+                <div class="col-lg-6 form-group">
+                    <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required ngModel></textarea>
+                    <button type="submit" class="primary-btn mt-20">Enviar Mensaje <span class="lnr lnr-arrow-right"></span></button>
+                    <div class="alert-msg">
+                    </div>
+                </div>
+            </div>
+        </form>
+
     </div>
-    <form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
-      <div class="row">
-      <div class="col-lg-6 form-group">
-        <input name="name" placeholder="Ingrese su nombre" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su nombre'" class="common-input mb-20 form-control" required="" type="text">
-
-        <input name="email" placeholder="Ingrese su correo electrónico" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su correo electrónico'" class="common-input mb-20 form-control" required="" type="email">
-
-        <input name="subject" placeholder="Ingrese su asunto" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingrese su asunto'" class="common-input mb-20 form-control" required="" type="text">
-      </div>
-      <div class="col-lg-6 form-group">
-        <textarea class="common-textarea mt-10 form-control" name="message" placeholder="Mensaje" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'" required=""></textarea>
-        <button type="submit" class="primary-btn mt-20">Enviar Mensaje <span class="lnr lnr-arrow-right"></span></button>
-        <div class="alert-msg">
-      </div>
-      </div></div>
-    </form>
-
-  </div>
 </section>
 <!-- end contact Area -->
-
-
