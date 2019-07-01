@@ -32,6 +32,14 @@
       "boton-4": "services for my event"
     }
   },
+  "footer" : {
+    "titulo-1" : "About",
+    "titulo-2" : "Associate",
+    "titulo-3" : "Follow us",
+    "texto-1" : "Working together for the same destiny",
+    "texto-2" : "Request information to associate",
+    "texto-3" : "In the networks"
+  },
   "secciones" : {
     "home":{
       "slider":{
@@ -90,6 +98,128 @@
         "titulo" : "Community in the networks",
         "texto" : "San Martín de los Andes Bureau"
       }
-    }
-  }    
+    },
+    "nosotros" :{
+      "copete" : "#EquipoBureauSMA",
+      "titulo-1" : "Working together",
+      "titulo-2" : "for the same destination",
+      "texto-1" : "San Martín de los Andes Bureau s a non-profit association, made up of entrepreneurs and professionals linked to the field of meetings tourism, of a Private - Public nature.",
+      "texto-2" : "The merger between the event and San Martin de los Andes Bureau is the operational synergy necessary to ensure success. It promotes the sustainability of the destination and activates the economy of the city.",
+      "texto-3" : "Our associates are committed to providing quality services, always seeking to satisfy the needs of those who visit us, becoming their strategic allies.",
+      "imperativo" : "Join our team",
+      "boton" : "Why partner",
+      "mision" : "MISSION",
+      "textoM-1" : "Position San Martin de los Andes as the destination for the realization of high quality events.",
+      "textoM-2" : "Maximize the experience of our visitors in the satisfaction of the services received from all suppliers and associated professionals, contributing to the social and cultural economic development of the destination.",
+      "vision" : "VISION",
+      "textoV-1" : "Promote San Martin de los Andes as the destination for the organization of congresses, conventions, fairs and incentive trips. Create the conditions for our associates to receive continuous training to generate a destination with a high degree of satisfaction.",
+      "textoV-2" : "To be an engine in the awareness of the care of the environment, social and business social responsibility to protect the natural beauties that surround us."
+
+    },
+    "sma" :{
+      "titulo" : "Why San Martin de los Andes",
+      "subtitulo-1" : "A different environment",
+      "texto-1" : "San Martin de los Andes is located in a valley within the Lanín National Park, surrounded by mountains with thick forests and deep glacial lakes. It is located south of the Province of Neuquén, and has a local airport located a few minutes. It has a cordilleran architecture with characteristics of the area.",
+      "subtitulo-2" : "A helpful city",
+      "texto-2" : "It is a safe, quiet and friendly city for visitors. It has an exquisite cuisine, excellent quality accommodation in its different categories and alternatives for walks, excursions, activities before and after events.",
+      "subtitulo-3" : "Event Venue",
+      "texto-3" : "All this makes it an original and particular venue for congresses, conventions, incentives, corporate and sports, accompanied by a unique landscape. The months of events are: March - April - May - June - October - September - November. Conference Capacity: 250",
+      "item-1" :{
+        "titulo" : "Gastronomy",
+        "bajada" : "Exquisite gastronomy typical of Patagonia",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+      "item-2" :{
+        "titulo" : "Hospitality",
+        "bajada" : "Hospitality three, four and five stars",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+      "item-3" :{
+        "titulo" : "Salons",
+        "bajada" : "Lounges with capacity up to 250 people",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }, 
+      "item-4" :{
+        "titulo" : "Activities",
+        "bajada" : "Diversity of tourist offer",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }, 
+      "item-5" :{
+        "titulo" : "Handicrafts",
+        "bajada" : "Typical crafts of Patagonia",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+      "item-6" :{
+        "titulo" : "Amiability",
+        "bajada" : "A city with good habits",
+        "texto-1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "texto-2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      }, 
+    "socios":{
+      "titulo" : "Services for Events",
+      "bajada" : "San Martín de los Andes - Patagonia Argentina",
+      "cat-serviciosTuristicos" : "Tourist Services",
+      "cat-hoteles" : "Hotels",
+      "cat-organizadores" : "Organizers",
+      "cat-salones" : "Salons",
+      "cat-catering" : "Catering",
+      "det-agencia" : "Travel and tourism agency",
+      "det-excursiones" : "Tourist Excursions of Lacustrine Navigation",
+      "det-cabalgatas" : "Horseback riding",
+      "det-hotel5" : "Hotel *****",
+      "det-hotel3" : "Hotel ***",
+      "det-hotel2hosteria3" : "Hotel ** and Hosteria ***",
+      "det-hoteria3" : "Hosteria ***",
+      "det-apart3" : "Apart Hotel ***",
+      "det-opc" : "OPC and Event planner",
+      "det-organizador" : "Event planner",
+      "det-coordinador" : "Room Coordinator",
+      "det-salon" : "Room for Events",
+      "det-pasteleria" : "Pastry"
+    },
+    "contacto" :{
+      "titulo-1" : "Your next event",
+      "titulo-2" : "in San Martín de los Andes",
+      "bajada" : "Discover all the possibilities",
+      "phNombre" : "Enter your name",
+      "phCorreo" : "Enter your email",
+      "phAsunto" : "Enter your subject",
+      "phMensaje" : "Message",
+      "boton" : "Send Message"
+
+    },
+    "asociarse" :{
+      "titulo-1" : "Why join the Bureau",
+      "texto-1" : "San Martin de los Andes Bureau promotes and promotes the city as a venue for meetings tourism for events, congresses, conventions, fairs, exhibitions, incentive tourism, etc. Seeking to end the seasonality of leisure tourism. Magnifying the use of all the infrastructure and services during the 12 months of the year.",
+      "texto-2" : "Partnering is wanting to belong to a group of professionals who work for the destination, with a common goal that is San Martin de los Andes meeting tourism.",
+      "subtitulo" : "Benefits:",
+      "textoSub-1" : "Project your business to meeting tourism.",
+      "textoSub-2" : "Generates brand presence in social networks through the buerau logo, which certifies the quality of its services.",
+      "textoSub-3" : "Generates brand presence in national and international fairs.",
+      "textoSub-4" : "Constant search for events.",
+      "textoSub-5" : "Technical and informative advice about the infrastructure and services of the city.",
+      "textoSub-6" : "Development of meetings between the associates to generate synergy in the work for events.",
+      "textoSub-7" : "It generates competitive advantages that directly impact the billing in the months considered low.",
+      "textoSub-8" : "Develop a Corporate Responsibility program that brings together all the associates.",
+      "titulo-2" : "Request information to associate",
+      "bajada" : "Discover all the possibilities",
+      "phNombre" : "Enter your name",
+      "phCorreo" : "Enter your email",
+      "phAsunto" : "Request information to associate",
+      "phMensaje" : "Message",
+      "boton" : "Send Message"
+
+    },
+    "gracias" :{
+      "titulo" : "Thank you for contacting us!",
+      "bajada" : "Soon we will contact you for your query",
+      "base" : "San Martín de los Andes Bureau"
+    } 
+  }
 }

@@ -5,178 +5,178 @@ export class SociosService {
 
 private socios:Socio []= [
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "Lanín Turismo",
-      detalle: "Agencia de viajes y turismo",
+      detalle: 'secciones.socios.det-agencia',
       img: "./assets/img/lanin.webp",
       url: "https://www.sanmartindelosandesbureau.com/lanin"
     },
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "Pireco Turismo",
-      detalle: "Agencia de viajes y turismo",
+      detalle: 'secciones.socios.det-agencia',
       img: "./assets/img/pireco.webp",
       url: "http://www.pirecoturismo.com/"
     },
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "El Claro",
-      detalle: "Agencia de viajes y turismo",
+      detalle: 'secciones.socios.det-agencia',
       img: "./assets/img/elclaro.webp",
       url: "http://www.elclaroturismo.com.ar/en/"
     },
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "Destino Andino",
-      detalle: "Agencia de viajes y turismo",
+      detalle: 'secciones.socios.det-agencia',
       img: "./assets/img/destinoandino.webp",
       url: "https://destinoandino.tur.ar/"
     },
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "Lácar & Nonthue",
-      detalle: "Excursiones Turísticas de Navegación Lacustre",
+      detalle: 'secciones.socios.det-excursiones',
       img: "./assets/img/lacarnonthue.webp",
       url: "https://lagolacarynonthue.com/"
     },
     {
-      categoria: "Servicios Turísticos",
+      categoria: 'secciones.socios.cat-serviciosTuristicos',
       etiqueta_filtro: "servicios_turisticos",
       titulo: "Corbet Rides",
-      detalle: "Cabalgatas",
+      detalle: 'secciones.socios.det-cabalgatas',
       img: "./assets/img/cabalgata.jpg",
       url: ""
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Loi Suites",
-      detalle: "Hotel *****",
+      detalle: 'secciones.socios.det-hotel5',
       img: "./assets/img/loisuites.webp",
       url: "http://loisuites.com.ar/es/hotel/loi-suites-chapelco-hotel"
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Hotel Antiguos",
-      detalle: "Hotel ***",
+      detalle: 'secciones.socios.det-hotel3',
       img: "./assets/img/antiguos.webp",
       url: "http://www.hotelantiguos.com.ar/es/"
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Complejo Aspen",
-      detalle: "Hotel ** y Hostería ***",
+      detalle: 'secciones.socios.det-hotel2Hoteria3',
       img: "./assets/img/aspen.webp",
       url: "https://www.hotelaspen.com.ar/"
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Hostería Monte Verde",
-      detalle: "Hostería ***",
+      detalle: 'secciones.socios.det-hosteria3',
       img: "./assets/img/monteverde.webp",
       url: "http://www.hosteriamonteverde.com.ar/"
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Hotel Le Village",
-      detalle: "Hotel ***",
+      detalle: 'secciones.socios.det-hotel3',
       img: "./assets/img/levillagehotel.webp",
       url: "http://www.hotellevillage.com.ar/"
     },
     {
-      categoria: "Hoteles",
+      categoria: 'secciones.socios.cat-hoteles',
       etiqueta_filtro: "hoteles",
       titulo: "Melewe",
-      detalle: "Apart Hotel ***",
+      detalle: 'secciones.socios.det-apart3',
       img: "./assets/img/melewe.webp",
       url: "http://www.melewe.com.ar/site/index/sanmartin"
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "SHE Eventos",
-      detalle: "OPC y Organizador de Eventos",
+      detalle: 'secciones.socios.det-opc',
       img: "./assets/img/she.webp",
       url: "http://sheventos.com.ar/"
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "Eureka Eventos",
-      detalle: "OPC y Organizador de Eventos",
+      detalle: 'secciones.socios.det-organizador',
       img: "./assets/img/eureka.webp",
       url: "https://www.holaeureka.com/"
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "Deborah Dalbene",
-      detalle: "Organizador de Eventos",
+      detalle: 'secciones.socios.det-organizador',
       img: "./assets/img/deborah.webp",
       url: ""
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "Kitty Hue",
-      detalle: "Organizador de Eventos",
+      detalle: 'secciones.socios.det-organizador',
       img: "./assets/img/kittyhue.webp",
       url: "https://www.facebook.com/kittyhueeventos/"
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "NQN Eventos",
-      detalle: "Organizador de Eventos",
+      detalle: 'secciones.socios.det-organizador',
       img: "./assets/img/nqneventos.webp",
       url: ""
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "María José Revuelta",
-      detalle: "Coordinador de Sala",
+      detalle: 'secciones.socios.det-coordinador',
       img: "./assets/img/silueta.webp",
       url: ""
     },
     {
-      categoria: "Organizadores",
+      categoria: 'secciones.socios.cat-organizadores',
       etiqueta_filtro: "organizadores",
       titulo: "Paula Bertorello",
-      detalle: "Coordinador de Sala",
+      detalle: 'secciones.socios.det-coordinador',
       img: "./assets/img/silueta.webp",
       url: ""
     },
     {
-      categoria: "Salones",
+      categoria: 'secciones.socios.cat-salones',
       etiqueta_filtro: "salones",
       titulo: "Pórtico",
-      detalle: "Salón para Eventos",
+      detalle: 'secciones.socios.det-salon',
       img: "./assets/img/portico.webp",
       url: "http://www.porticoeventos.com.ar/contacto.htm"
     },
     {
-      categoria: "Salones",
+      categoria: 'secciones.socios.cat-salones',
       etiqueta_filtro: "salones",
       titulo: "Le Village",
-      detalle: "Salón para Eventos",
+      detalle: 'secciones.socios.det-salon',
       img: "./assets/img/levillageeventos.webp",
       url: "https://www.hotellevillage.com.ar/eventos.html"
     },
     {
-      categoria: "Catering",
+      categoria: 'secciones.socios.cat-catering',
       etiqueta_filtro: "varios",
       titulo: "Unser",
-      detalle: "Pastelería",
+      detalle: 'secciones.socios.det-pasateleria',
       img: "./assets/img/unser.webp",
       url: "http://www.unsertraum.com.ar/"
     }

@@ -2,9 +2,9 @@
   <img [src]="socio.img" class="card-img-top" [alt]="socio.titulo">
     <div class="card-body">
       <h5 class="card-title">{{ socio.titulo | uppercase }}</h5>
-      <p class="card-text">{{ socio.detalle }}</p>
+      <p class="card-text">{{ socio.detalle | translate }}</p>
       <a [href]="socio.url" target="_blank"> <button type="button" class="btn btn-info">
-        {{ socio.categoria }}
+        {{ socio.categoria | translate }}
       </button></a>
       <!-- <a [routerLink]="['/application', i]" class="btn btn-warning">Calculate</a> -->
     </div>
