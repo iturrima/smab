@@ -2900,9 +2900,17 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
-/* Wide Mobile Layout: 480px */
-@media (max-width: 480px) {
+/* Wide Mobile Layout: 0px */
+@media (max-width: 960px) {
+  .section-carousel {
+    margin-top: 80px;
   
+  }
+
+  .default-banner .carousel-caption{
+    bottom: 0px;
+    /* padding-top: 120px; */
+  }
 }
 
 
